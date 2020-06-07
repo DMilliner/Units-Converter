@@ -1,7 +1,7 @@
 package com.morenn.converter.utils
 
 import com.morenn.converter.R
-import kotlin.text.Typography.degree
+import kotlin.text.Typography.pound
 
 
 enum class UnitsType(val unitGroupNameId: Int, val unitImageId: Int = 0, val unitsList: List<UnitType> = listOf()) {
@@ -11,13 +11,13 @@ enum class UnitsType(val unitGroupNameId: Int, val unitImageId: Int = 0, val uni
     BYTES(unitGroupNameId= R.string.bytes, unitsList = bytesList),
     COOKING(unitGroupNameId= R.string.cooking, unitsList = cookingList),
     DISTANCE(unitGroupNameId= R.string.distance, unitsList = distancesList),
-    FUEL_CONSUMPTION(unitGroupNameId= R.string.fuelConsumption),
-    MASS(unitGroupNameId= R.string.mass),
-    NUMERAL_SYSTEM(unitGroupNameId= R.string.numeralSystem),
+    FUEL_CONSUMPTION(unitGroupNameId= R.string.fuelConsumption, unitsList = fuelList),
+    MASS(unitGroupNameId= R.string.mass, unitsList = massList),
+    NUMERAL_SYSTEM(unitGroupNameId= R.string.numeralSystem, unitsList = numbersList),
     PERCENTAGE(unitGroupNameId= R.string.percentage),
-    SI_PREFIXES(unitGroupNameId= R.string.siPrefixes),
-    SPEED(unitGroupNameId= R.string.speed),
-    TEMPERATURE(unitGroupNameId= R.string.temperature),
+    SI_PREFIXES(unitGroupNameId= R.string.siPrefixes, unitsList = prefixesList),
+    SPEED(unitGroupNameId= R.string.speed, unitsList = speedsList),
+    TEMPERATURE(unitGroupNameId= R.string.temperature, unitsList = temperaturesList),
     TIME(unitGroupNameId= R.string.time),
     VOLUME(unitGroupNameId= R.string.volume)
 }
@@ -64,18 +64,12 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
         unitNameId= R.string.square_yard),
 
 //    Bytes
-    BASE_2(
-        unitSymbolId= "Base\u2082",
-        unitNameId= R.string.binary),
-    BASE_8(
-        unitSymbolId= "Base\u2088",
-        unitNameId= R.string.octal),
-    BASE_10(
-        unitSymbolId= "Base\u2081\u2080",
-        unitNameId= R.string.decimal),
-    BASE_16(
-        unitSymbolId= "Base\u2081\u2086",
-        unitNameId= R.string.hexadecimal),
+    BIT(
+        unitSymbolId= "Bit",
+        unitNameId= R.string.bit),
+    BYTE(
+        unitSymbolId= "Byte",
+        unitNameId= R.string._byte),
 
 //    Cooking
     CENTILITER(
@@ -139,12 +133,171 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
         unitNameId= R.string.yard),
 
 //    Fuel Consumption
+    GALLONS_PER_MILE(
+        unitSymbolId= "gpm",
+        unitNameId= R.string.gallons_per_mile),
+    MILES_PER_GALLON(
+        unitSymbolId= "mpg",
+        unitNameId= R.string.miles_per_gallon),
+    KILOMETERS_PER_LITER(
+        unitSymbolId= "km/l",
+        unitNameId= R.string.kilometers_per_liter),
+    LITERS_PER_KILOMETER(
+        unitSymbolId= "l/km",
+        unitNameId= R.string.liters_per_kilometer),
+
 //    Mass
+    CENTIGRAM(
+        unitSymbolId= "cg",
+        unitNameId= R.string.centigram),
+    GRAM(
+        unitSymbolId= "g",
+        unitNameId= R.string.gram),
+    KILOGRAM(
+        unitSymbolId= "kg",
+        unitNameId= R.string.kilogram),
+    MEGATON(
+        unitSymbolId= "Mt",
+        unitNameId= R.string.megaton),
+    MILLIGRAM(
+        unitSymbolId= "mg",
+        unitNameId= R.string.milligram),
+    NANOGRAM(
+        unitSymbolId= "ng",
+        unitNameId= R.string.nanogram),
+    OUNCE(
+        unitSymbolId= "oz",
+        unitNameId= R.string.ounce),
+    PICOGRAM(
+        unitSymbolId= "pg",
+        unitNameId= R.string.picogram),
+    POUND(
+        unitSymbolId= "lb",
+        unitNameId= R.string.pound),
+    QUINTAL(
+        unitSymbolId= "Qt",
+        unitNameId= R.string.quintal),
+    STONE(
+        unitSymbolId= "st",
+        unitNameId= R.string.stone),
+    TON(
+        unitSymbolId= "t",
+        unitNameId= R.string.ton),
+
 //    Numeral System
+    BASE_2(
+        unitSymbolId= "Base\u2082",
+        unitNameId= R.string.binary),
+    BASE_8(
+        unitSymbolId= "Base\u2088",
+        unitNameId= R.string.octal),
+    BASE_10(
+        unitSymbolId= "Base\u2081\u2080",
+        unitNameId= R.string.decimal),
+    BASE_16(
+        unitSymbolId= "Base\u2081\u2086",
+        unitNameId= R.string.hexadecimal),
+    ROMAN(
+        unitSymbolId= "Roman",
+        unitNameId= R.string.roman),
+
 //    Percentages
+
 //    SI Prefixes
+    ATTO(
+        unitSymbolId= "Atto",
+        unitNameId= R.string.atto),
+    CENTI(
+        unitSymbolId= "Centi",
+        unitNameId= R.string.centi),
+    DECA(
+        unitSymbolId= "Deca",
+        unitNameId= R.string.deca),
+    DECI(
+        unitSymbolId= "Deci",
+        unitNameId= R.string.deci),
+    EXA(
+        unitSymbolId= "Exa",
+        unitNameId= R.string.exa),
+    FEMTO(
+        unitSymbolId= "Femto",
+        unitNameId= R.string.femto),
+    GIGA(
+        unitSymbolId= "Giga",
+        unitNameId= R.string.giga),
+    HECTO(
+        unitSymbolId= "Hecto",
+        unitNameId= R.string.hecto),
+    KILO(
+        unitSymbolId= "Kilo",
+        unitNameId= R.string.kilo),
+    MEGA(
+        unitSymbolId= "Mega",
+        unitNameId= R.string.mega),
+    MILLI(
+        unitSymbolId= "Milli",
+        unitNameId= R.string.milli),
+    NANO(
+        unitSymbolId= "Nano",
+        unitNameId= R.string.nano),
+    PETA(
+        unitSymbolId= "Peta",
+        unitNameId= R.string.peta),
+    PICO(
+        unitSymbolId= "Pico",
+        unitNameId= R.string.pico),
+    TERA(
+        unitSymbolId= "Tera",
+        unitNameId= R.string.tera),
+    YOCTO(
+        unitSymbolId= "Yocto",
+        unitNameId= R.string.yocto),
+    YOTTA(
+        unitSymbolId= "Yotta",
+        unitNameId= R.string.yotta),
+    ZEPTO(
+        unitSymbolId= "Zepto",
+        unitNameId= R.string.zepto),
+    ZETTA(
+        unitSymbolId= "Zetta",
+        unitNameId= R.string.zetta),
+
 //    Speed
+
 //    Temperature
+    CELSIUS(
+        unitSymbolId= "˚C",
+        unitNameId= R.string.celsius),
+    FAHRENHEIT(
+        unitSymbolId= "˚F",
+        unitNameId= R.string.fahrenheit),
+    KELVIN(
+        unitSymbolId= "K",
+        unitNameId= R.string.kelvin),
+
 //    Time
+    SECOND(
+        unitSymbolId= "s",
+        unitNameId= R.string.seconds),
+    MINUTE(
+        unitSymbolId= "m",
+        unitNameId= R.string.minute),
+    HOUR(
+        unitSymbolId= "h",
+        unitNameId= R.string.hour),
+    DAY(
+        unitSymbolId= "day",
+        unitNameId= R.string.day),
+    WEEK(
+        unitSymbolId= "week",
+        unitNameId= R.string.week),
+    MONTH(
+        unitSymbolId= "month",
+        unitNameId= R.string.month),
+    YEAR(
+        unitSymbolId= "month",
+        unitNameId= R.string.year),
+
 //    Volume
+
 }

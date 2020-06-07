@@ -1,10 +1,8 @@
 package com.morenn.converter.utils
 
 val bytesList = listOf(
-    UnitType.BASE_2,
-    UnitType.BASE_8,
-    UnitType.BASE_10,
-    UnitType.BASE_16
+    UnitType.BIT,
+    UnitType.BYTE
 )
 
 fun convertBytes(primaryValue: Double, primaryUnit: UnitType?, secondaryUnit: UnitType?): Double {
