@@ -1,7 +1,5 @@
 package com.morenn.converter.utils
 
-import com.morenn.converter.R
-
 val prefixesList = listOf(
     UnitType.ATTO,
     UnitType.CENTI,

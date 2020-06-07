@@ -1,7 +1,5 @@
 package com.morenn.converter.utils
 
-import com.morenn.converter.R
-
 val temperaturesList = listOf(
     UnitType.CELSIUS,
     UnitType.FAHRENHEIT,

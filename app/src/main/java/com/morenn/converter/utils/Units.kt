@@ -1,8 +1,6 @@
 package com.morenn.converter.utils
 
 import com.morenn.converter.R
-import kotlin.text.Typography.pound
-
 
 enum class UnitsType(val unitGroupNameId: Int, val unitImageId: Int = 0, val unitsList: List<UnitType> = listOf()) {
     ACCELERATION(unitGroupNameId= R.string.acceleration),
@@ -18,7 +16,7 @@ enum class UnitsType(val unitGroupNameId: Int, val unitImageId: Int = 0, val uni
     SI_PREFIXES(unitGroupNameId= R.string.siPrefixes, unitsList = prefixesList),
     SPEED(unitGroupNameId= R.string.speed, unitsList = speedsList),
     TEMPERATURE(unitGroupNameId= R.string.temperature, unitsList = temperaturesList),
-    TIME(unitGroupNameId= R.string.time),
+    TIME(unitGroupNameId= R.string.time, unitsList = timesList),
     VOLUME(unitGroupNameId= R.string.volume)
 }
 

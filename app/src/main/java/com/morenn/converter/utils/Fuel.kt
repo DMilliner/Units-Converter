@@ -1,7 +1,5 @@
 package com.morenn.converter.utils
 
-import com.morenn.converter.R
-
 val fuelList = listOf(
     UnitType.GALLONS_PER_MILE,
     UnitType.MILES_PER_GALLON,
