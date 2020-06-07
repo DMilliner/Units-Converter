@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:epoxy-databinding:2.6.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ed92235d3a6501feb3a290c48b859b0/jetified-epoxy-databinding-2.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ed92235d3a6501feb3a290c48b859b0/jetified-epoxy-databinding-2.6.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/epoxy-databinding/2.6.0/b2202e9447b5af0ff1b9e7b07ae0ca9f7e77ee22/epoxy-databinding-2.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/epoxy-databinding/2.6.0/b0786c623b2b0436339e4e76618812395c4f25dd/epoxy-databinding-2.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

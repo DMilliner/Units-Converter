@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name" translatable="false">Units Converter</string>
+
+    <string name="acceleration">Acceleration</string>
+    <string name="angle">Angle</string>
+    <string name="area">Area</string>
+    <string name="bytes">Bytes</string>
+    <string name="cooking">Cooking</string>
+    <string name="distance">Distance</string>
+    <string name="fuelConsumption">Fuel Consumption</string>
+    <string name="mass">Mass</string>
+    <string name="numeralSystem">Numeral System</string>
+    <string name="percentage">Percentage</string>
+    <string name="siPrefixes">SI Prefixes</string>
+    <string name="temperature">Temperature</string>
+    <string name="time">Time</string>
+    <string name="volume">Volume</string>
+    <string name="card_image_description">Card Image</string>
+    <string name="value">Value</string>
+    <string name="unit">Unit</string>
+    <string name="acre">Acre</string>
+    <string name="hectare">Hectare</string>
+    <string name="square_centimeter">Square Centimeter</string>
+    <string name="square_foot">Square Foot</string>
+    <string name="square_inch">Square Inch</string>
+    <string name="square_kilometer">Square Kilometer</string>
+    <string name="square_meter">Square Meter</string>
+    <string name="square_mile">Square Mile</string>
+    <string name="square_yard">Square Yard</string>
+    <string name="degree">Degree</string>
+    <string name="radian">Radian</string>
+    <string name="speed">Speed</string>
+    <string name="binary">Binary</string>
+    <string name="octal">Octal</string>
+    <string name="decimal">Decimal</string>
+    <string name="hexadecimal">Hexadecimal</string>
+    <string name="centiliter">Centiliter</string>
+    <string name="cup">Cup</string>
+    <string name="deciliter">Deciliter</string>
+    <string name="liter">Liter</string>
+    <string name="milliliter">Milliliter</string>
+    <string name="pinch">Pinch</string>
+    <string name="quart">Quart</string>
+    <string name="tablespoon">Tablespoon</string>
+    <string name="teaspoon">Teaspoon</string>
+    <string name="yard">Yard</string>
+    <string name="centimeter">Centimeter</string>
+    <string name="foot">Foot</string>
+    <string name="inch">Inch</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="light_years">Light Years</string>
+    <string name="meter">Meter</string>
+    <string name="millimeter">Millimeter</string>
+    <string name="nanometer">Nanometer</string>
+    <string name="picometer">Picometer</string>
+</resources>
