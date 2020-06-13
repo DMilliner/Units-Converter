@@ -8,8 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6aa0407-776f-473e-b634-3c0e9efec0a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Mass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Mass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,9 +137,9 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="300" height="36" key="javadoc.popup.new/0.23.1440.837@0.23.1440.837" timestamp="1591513573724" />
-    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1592078757557">
+    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1592086744943">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1592078757557" />
+    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1592086744943" />
   </component>
 </project>
