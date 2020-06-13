@@ -7,13 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6aa0407-776f-473e-b634-3c0e9efec0a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Fuel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Fuel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +129,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="521" y="195" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1592075549927">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="521" y="195" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.837@0.23.1440.837" timestamp="1592075549927" />
     <state x="561" y="296" key="AndroidCreateXmlResourceDialog" timestamp="1591514418511">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -130,9 +141,17 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="359" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.837@0.23.1440.837" timestamp="1591565335943" />
+    <state x="550" y="217" width="709" height="486" key="find.popup" timestamp="1592077654837">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="550" y="217" width="709" height="486" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1592077654837" />
     <state width="300" height="36" key="javadoc.popup.new" timestamp="1591513573724">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="300" height="36" key="javadoc.popup.new/0.23.1440.837@0.23.1440.837" timestamp="1591513573724" />
+    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1592078757557">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1592078757557" />
   </component>
 </project>

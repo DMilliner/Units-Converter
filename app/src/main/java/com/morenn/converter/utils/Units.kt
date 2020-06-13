@@ -131,17 +131,17 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
         unitNameId= R.string.yard),
 
 //    Fuel Consumption
-    GALLONS_PER_MILE(
-        unitSymbolId= "gpm",
+    MILES_PER_GALLON_UK(
+        unitSymbolId= "mpg \uD83C\uDDEC\uD83C\uDDE7",
         unitNameId= R.string.gallons_per_mile),
-    MILES_PER_GALLON(
-        unitSymbolId= "mpg",
+    MILES_PER_GALLON_US(
+        unitSymbolId= "mpg \uD83C\uDDFA\uD83C\uDDF8",
         unitNameId= R.string.miles_per_gallon),
     KILOMETERS_PER_LITER(
-        unitSymbolId= "km/l",
+        unitSymbolId= "km/L",
         unitNameId= R.string.kilometers_per_liter),
-    LITERS_PER_KILOMETER(
-        unitSymbolId= "l/km",
+    LITERS_PER_100_KILOMETERS(
+        unitSymbolId= "L/100km",
         unitNameId= R.string.liters_per_kilometer),
 
 //    Mass
