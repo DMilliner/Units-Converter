@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6aa0407-776f-473e-b634-3c0e9efec0a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Areas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Areas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Distances.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Distances.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

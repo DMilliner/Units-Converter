@@ -38,7 +38,7 @@ fun convertAreas(primaryValue: Double, primaryUnit: UnitType?, secondaryUnit: Un
              primaryUnit == UnitType.HECTARE && secondaryUnit == UnitType.SQUARE_YARD -> 11959.900463011
 
              primaryUnit == UnitType.SQUARE_CENTIMETER && secondaryUnit == UnitType.ACRE -> 2.4710538146716 * 10.0.pow(-8)
-             primaryUnit == UnitType.SQUARE_CENTIMETER && secondaryUnit == UnitType.HECTARE -> 1* 10.0.pow(-8)
+             primaryUnit == UnitType.SQUARE_CENTIMETER && secondaryUnit == UnitType.HECTARE -> 1 * 10.0.pow(-8)
              primaryUnit == UnitType.SQUARE_CENTIMETER && secondaryUnit == UnitType.SQUARE_CENTIMETER -> 1.0
              primaryUnit == UnitType.SQUARE_CENTIMETER && secondaryUnit == UnitType.SQUARE_FOOT -> 0.001076391
              primaryUnit == UnitType.SQUARE_CENTIMETER && secondaryUnit == UnitType.SQUARE_INCH -> 0.15500031

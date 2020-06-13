@@ -117,15 +117,6 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
     METER(
         unitSymbolId= "m",
         unitNameId= R.string.meter),
-    MILLIMETER(
-        unitSymbolId= "mm",
-        unitNameId= R.string.millimeter),
-    NANOMETER(
-        unitSymbolId= "nm",
-        unitNameId= R.string.nanometer),
-    PICOMETER(
-        unitSymbolId= "pm",
-        unitNameId= R.string.picometer),
     YARD(
         unitSymbolId= "yard",
         unitNameId= R.string.yard),
