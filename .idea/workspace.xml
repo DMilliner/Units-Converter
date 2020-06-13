@@ -8,8 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6aa0407-776f-473e-b634-3c0e9efec0a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Areas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Areas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Distances.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Distances.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Mass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Mass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

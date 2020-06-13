@@ -148,18 +148,9 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
     MEGATON(
         unitSymbolId= "Mt",
         unitNameId= R.string.megaton),
-    MILLIGRAM(
-        unitSymbolId= "mg",
-        unitNameId= R.string.milligram),
-    NANOGRAM(
-        unitSymbolId= "ng",
-        unitNameId= R.string.nanogram),
     OUNCE(
         unitSymbolId= "oz",
         unitNameId= R.string.ounce),
-    PICOGRAM(
-        unitSymbolId= "pg",
-        unitNameId= R.string.picogram),
     POUND(
         unitSymbolId= "lb",
         unitNameId= R.string.pound),
