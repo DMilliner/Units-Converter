@@ -165,18 +165,18 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
         unitNameId= R.string.ton),
 
 //    Numeral System
-    BASE_2(
-        unitSymbolId= "Base\u2082",
-        unitNameId= R.string.binary),
-    BASE_8(
-        unitSymbolId= "Base\u2088",
-        unitNameId= R.string.octal),
+//    BASE_2(
+//        unitSymbolId= "Base\u2082",
+//        unitNameId= R.string.binary),
+//    BASE_8(
+//        unitSymbolId= "Base\u2088",
+//        unitNameId= R.string.octal),
     BASE_10(
         unitSymbolId= "Base\u2081\u2080",
         unitNameId= R.string.decimal),
-    BASE_16(
-        unitSymbolId= "Base\u2081\u2086",
-        unitNameId= R.string.hexadecimal),
+//    BASE_16(
+//        unitSymbolId= "Base\u2081\u2086",
+//        unitNameId= R.string.hexadecimal),
     ROMAN(
         unitSymbolId= "Roman",
         unitNameId= R.string.roman),

@@ -1,6 +1,7 @@
 package com.morenn.converter.detail
 
 import android.os.Bundle
+import android.text.InputType
 import android.widget.AdapterView.OnItemClickListener
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
@@ -29,6 +30,12 @@ class DetailActivity : AppCompatActivity() {
 
         selectedUnit = intent.getSerializableExtra(SELECTED_UNIT) as UnitsType
         supportActionBar?.title = getString(selectedUnit.unitGroupNameId)
+
+        if (selectedUnit == UnitsType.NUMERAL_SYSTEM) {
+            firstValueInputEditText.inputType = InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS
+        } else {
+            firstValueInputEditText.inputType = InputType.TYPE_CLASS_NUMBER or InputType.TYPE_NUMBER_FLAG_DECIMAL or InputType.TYPE_NUMBER_FLAG_SIGNED
+        }
 
         val items = selectedUnit.unitsList.map { it.unitSymbolId }
         adapter = ArrayAdapter(this@DetailActivity, R.layout.list_item, items)
@@ -99,7 +106,7 @@ class DetailActivity : AppCompatActivity() {
                 UnitsType.DISTANCE -> convertDistances(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.FUEL_CONSUMPTION -> convertFuelConsumptions(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.MASS -> convertMass(text.toDouble(), firstUnit, secondUnit)
-                UnitsType.NUMERAL_SYSTEM -> convertNumbers(text.toDouble(), firstUnit, secondUnit)
+                UnitsType.NUMERAL_SYSTEM -> convertNumbers(text, firstUnit, secondUnit)
                 UnitsType.PERCENTAGE -> convertPercentages(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.SI_PREFIXES -> convertPrefixes(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.SPEED -> convertSpeeds(text.toDouble(), firstUnit, secondUnit)
