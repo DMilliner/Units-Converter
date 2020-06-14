@@ -9,22 +9,16 @@
     <list default="true" id="c6aa0407-776f-473e-b634-3c0e9efec0a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/detail/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/detail/DetailActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Temperatures.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Temperatures.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Units.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,74 +135,93 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="561" y="296" key="AndroidCreateXmlResourceDialog/0.23.1440.837@0.23.1440.837" timestamp="1591514418511" />
-    <state width="1149" height="244" key="GridCell.Tab.0.bottom" timestamp="1592093054789">
+    <state width="1149" height="244" key="GridCell.Tab.0.bottom" timestamp="1592095921162">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1592093054789" />
-    <state width="1149" height="244" key="GridCell.Tab.0.center" timestamp="1592093054789">
+    <state width="1149" height="244" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1592095921162" />
+    <state width="1149" height="244" key="GridCell.Tab.0.center" timestamp="1592095921160">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1592093054789" />
-    <state width="1149" height="244" key="GridCell.Tab.0.left" timestamp="1592093054788">
+    <state width="1149" height="244" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1592095921160" />
+    <state width="1149" height="244" key="GridCell.Tab.0.left" timestamp="1592095921160">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1592093054788" />
-    <state width="1149" height="244" key="GridCell.Tab.0.right" timestamp="1592093054789">
+    <state width="1149" height="244" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1592095921160" />
+    <state width="1149" height="244" key="GridCell.Tab.0.right" timestamp="1592095921161">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1592093054789" />
-    <state width="1149" height="244" key="GridCell.Tab.1.bottom" timestamp="1592093054788">
+    <state width="1149" height="244" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1592095921161" />
+    <state width="1149" height="244" key="GridCell.Tab.1.bottom" timestamp="1592095921160">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1592093054788" />
-    <state width="1149" height="244" key="GridCell.Tab.1.center" timestamp="1592093054788">
+    <state width="1149" height="244" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1592095921160" />
+    <state width="1149" height="244" key="GridCell.Tab.1.center" timestamp="1592095921159">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1592093054788" />
-    <state width="1149" height="244" key="GridCell.Tab.1.left" timestamp="1592093054788">
+    <state width="1149" height="244" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1592095921159" />
+    <state width="1149" height="244" key="GridCell.Tab.1.left" timestamp="1592095921159">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1592093054788" />
-    <state width="1149" height="244" key="GridCell.Tab.1.right" timestamp="1592093054788">
+    <state width="1149" height="244" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1592095921159" />
+    <state width="1149" height="244" key="GridCell.Tab.1.right" timestamp="1592095921159">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1149" height="244" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1592093054788" />
-    <state x="359" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591565335943">
+    <state width="1149" height="244" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1592095921159" />
+    <state x="359" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1592095271159">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="359" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.837@0.23.1440.837" timestamp="1591565335943" />
+    <state x="359" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.837@0.23.1440.837" timestamp="1592095271159" />
     <state x="550" y="217" width="709" height="486" key="find.popup" timestamp="1592077654837">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="550" y="217" width="709" height="486" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1592077654837" />
-    <state width="300" height="36" key="javadoc.popup.new" timestamp="1592092962122">
+    <state width="300" height="36" key="javadoc.popup.new" timestamp="1592095840588">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="300" height="36" key="javadoc.popup.new/0.23.1440.837@0.23.1440.837" timestamp="1592092962122" />
-    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1592086744943">
+    <state width="300" height="36" key="javadoc.popup.new/0.23.1440.837@0.23.1440.837" timestamp="1592095840588" />
+    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1592093444874">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1592086744943" />
+    <state x="569" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1592093444874" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/detail/DetailActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Temperatures.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Temperatures.kt</url>
           <line>34</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/detail/DetailActivity.kt</url>
-          <line>33</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Temperatures.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/detail/DetailActivity.kt</url>
-          <line>36</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Temperatures.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/morenn/converter/utils/Temperatures.kt</url>
+          <line>46</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="primaryValue.minus(273.15)" language="kotlin" />
+        <watch expression="(primaryValue.minus(273.15)) * (9/5) + 32" language="kotlin" />
+        <watch expression="primaryValue.minus(273.15) * (9/5) + 32" language="kotlin" />
+        <watch expression="(primaryValue.minus(273.15)) * 9/5 + 32" language="kotlin" />
+        <watch expression="primaryValue.minus(273.15) * 9/5 + 32" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -136,9 +136,6 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
         unitNameId= R.string.liters_per_kilometer),
 
 //    Mass
-    CENTIGRAM(
-        unitSymbolId= "cg",
-        unitNameId= R.string.centigram),
     GRAM(
         unitSymbolId= "g",
         unitNameId= R.string.gram),
