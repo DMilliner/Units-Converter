@@ -98,7 +98,7 @@ class DetailActivity : AppCompatActivity() {
     ) {
         if (text.isNotEmpty()) {
             val valueConverted = when (selectedUnit) {
-                UnitsType.ACCELERATION -> convertAccelerations(text.toDouble(), firstUnit, secondUnit)
+//                UnitsType.ACCELERATION -> convertAccelerations(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.ANGLE -> convertAngles(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.AREA -> convertAreas(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.BYTES -> convertBytes(text.toDouble(), firstUnit, secondUnit)
@@ -107,12 +107,12 @@ class DetailActivity : AppCompatActivity() {
                 UnitsType.FUEL_CONSUMPTION -> convertFuelConsumptions(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.MASS -> convertMass(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.NUMERAL_SYSTEM -> convertNumbers(text, firstUnit, secondUnit)
-                UnitsType.PERCENTAGE -> convertPercentages(text.toDouble(), firstUnit, secondUnit)
+//                UnitsType.PERCENTAGE -> convertPercentages(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.SI_PREFIXES -> convertPrefixes(text.toDouble(), firstUnit, secondUnit)
-                UnitsType.SPEED -> convertSpeeds(text.toDouble(), firstUnit, secondUnit)
+//                UnitsType.SPEED -> convertSpeeds(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.TEMPERATURE -> convertTemperatures(text.toDouble(), firstUnit, secondUnit)
                 UnitsType.TIME -> convertTimes(text.toDouble(), firstUnit, secondUnit)
-                UnitsType.VOLUME -> convertVolumes(text.toDouble(), firstUnit, secondUnit)
+//                UnitsType.VOLUME -> convertVolumes(text.toDouble(), firstUnit, secondUnit)
             }
 
             secondValueInputEditText.setText(valueConverted.toString())

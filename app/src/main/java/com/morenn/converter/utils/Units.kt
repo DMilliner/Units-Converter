@@ -3,7 +3,7 @@ package com.morenn.converter.utils
 import com.morenn.converter.R
 
 enum class UnitsType(val unitGroupNameId: Int, val unitImageId: Int = 0, val unitsList: List<UnitType> = listOf()) {
-    ACCELERATION(unitGroupNameId= R.string.acceleration),
+//    ACCELERATION(unitGroupNameId= R.string.acceleration, unitsList = accelerationsList),
     ANGLE(unitGroupNameId= R.string.angle, unitsList = anglesList),
     AREA(unitGroupNameId= R.string.area, unitsList= areasList),
     BYTES(unitGroupNameId= R.string.bytes, unitsList = bytesList),
@@ -12,12 +12,12 @@ enum class UnitsType(val unitGroupNameId: Int, val unitImageId: Int = 0, val uni
     FUEL_CONSUMPTION(unitGroupNameId= R.string.fuelConsumption, unitsList = fuelList),
     MASS(unitGroupNameId= R.string.mass, unitsList = massList),
     NUMERAL_SYSTEM(unitGroupNameId= R.string.numeralSystem, unitsList = numbersList),
-    PERCENTAGE(unitGroupNameId= R.string.percentage),
+//    PERCENTAGE(unitGroupNameId= R.string.percentage, unitsList = percentagesList),
     SI_PREFIXES(unitGroupNameId= R.string.siPrefixes, unitsList = prefixesList),
-    SPEED(unitGroupNameId= R.string.speed, unitsList = speedsList),
+//    SPEED(unitGroupNameId= R.string.speed, unitsList = speedsList),
     TEMPERATURE(unitGroupNameId= R.string.temperature, unitsList = temperaturesList),
-    TIME(unitGroupNameId= R.string.time, unitsList = timesList),
-    VOLUME(unitGroupNameId= R.string.volume)
+    TIME(unitGroupNameId= R.string.time, unitsList = timesList)
+//    VOLUME(unitGroupNameId= R.string.volume, unitsList = volumesList)
 }
 
 enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
