@@ -214,6 +214,9 @@ enum class UnitType(val unitSymbolId: String, val unitNameId: Int) {
     MILLI(
         unitSymbolId= "Milli",
         unitNameId= R.string.milli),
+    MICRO(
+        unitSymbolId= "Micro",
+        unitNameId= R.string.milli),
     NANO(
         unitSymbolId= "Nano",
         unitNameId= R.string.nano),
